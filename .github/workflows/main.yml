@@ -1,0 +1,9 @@
+name: Test
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  terraform-fmt:
+    uses: AllanMNoguera/reusable-workflows/.github/workflows/main.yml@master

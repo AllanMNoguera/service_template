@@ -6,4 +6,4 @@ on:
 
 jobs:
   terraform-fmt:
-    uses: AllanMNoguera/reusable-workflows/.github/workflows/main.yml@master
+    uses: AllanMNoguera/reusable-workflows/.github/workflows/main.yml@main

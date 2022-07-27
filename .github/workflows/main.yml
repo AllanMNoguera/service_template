@@ -5,5 +5,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  terraform-fmt:
+  reusable-main:
     uses: AllanMNoguera/reusable-workflows/.github/workflows/main.yml@main
